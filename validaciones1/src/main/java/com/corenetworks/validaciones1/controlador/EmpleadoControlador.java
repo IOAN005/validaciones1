@@ -64,6 +64,7 @@ public class EmpleadoControlador {
         List<Empleado> empleadosBBDD=service.consultarTodos();
         List<EmpleadoDTO> empleadosDTO=new ArrayList<>();
         for (Empleado elemento:
+                //comentario
             empleadosBBDD ) {
 
             empleadosDTO.add((new EmpleadoDTO()).castEmpleadoDto(elemento));
